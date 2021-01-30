@@ -25,7 +25,7 @@ import Profile from './pages/Profile';
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import createMuiTheme from '@material-ui/core/styles/createMuiTheme';
 
-axios.defaults.baseURL = 'http://localhost:5000/api/';
+axios.defaults.baseURL = 'https://ecomerceback.herokuapp.com/api/';
 
 const App = () => {
 	const theme = createMuiTheme(themeFile);
